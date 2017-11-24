@@ -1,0 +1,33 @@
+{
+    "messages": {
+        "save": "Сохранить",
+        "cancel": "Отменить",
+        "proceed": "Продолжить",
+        "connectionIssue": "There seems to be a connection issue"
+    },
+    "auth": {
+        "signin": "Войти",
+        "signup": "Подключиться",
+        "signout": "Выйти",
+        "profile": "Профиль",
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "email": "EMail",
+        "password": "Пароль",
+        "oldPassword": "Текущий пароль",
+        "newPassword": "Новый пароль",
+        "messages": {
+            "verifyEmailAlert": "Hey friend! Can you <strong>verify your email address</strong> ({emailAddress}) for us?",
+            "verifyEmailCheck": "Check {emailAddress} for a verification link!",
+            "verifyEmailSuccess": "All set, thanks!",
+            "verifyEmailError": "{error}. Please try again.",
+            "verifyEmailTitle": "Wait a second, verifying..."
+        }
+    },
+    "profile": {
+        "title": "Аккаунт"
+    },
+    "dashboard": {
+        "title": "Сводка"
+    }
+}

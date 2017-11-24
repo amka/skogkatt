@@ -1,0 +1,34 @@
+{
+    "messages": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "proceed": "Proceed",
+        "connectionIssue": "There seems to be a connection issue"
+    },
+    "auth": {
+        "signin": "Sign In",
+        "signup": "Sign Up",
+        "signout": "Sign Out",
+        "profile": "Profile",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "EMail",
+        "password": "Password",
+        "oldPassword": "Current Password",
+        "newPassword": "New Password",
+        "resendVerificationEmail": "Re-send verification email",
+        "messages": {
+            "verifyEmailAlert": "Hey friend! Can you <strong>verify your email address</strong> ({emailAddress}) for us?",
+            "verifyEmailCheck": "Check {emailAddress} for a verification link!",
+            "verifyEmailSuccess": "All set, thanks!",
+            "verifyEmailError": "{error}. Please try again.",
+            "verifyEmailTitle": "Wait a second, verifying..."
+        }
+    },
+    "profile": {
+        "title": "Profile"
+    },
+    "dashboard": {
+        "title": "Dashboard"
+    }
+}

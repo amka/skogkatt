@@ -1,0 +1,31 @@
+{
+  "public": {
+    "companyTitle": "Skogkatt Company",
+    "appTitle": "Skogkatt"
+  },
+  "private": {
+    "MAIL_URL": "",
+    "ROOT_URL": "",
+    "email": {
+      "hello": "",
+      "support": ""
+    },
+    "OAuth": {
+      "facebook": {
+        "appId": "",
+        "secret": "",
+        "loginStyle": "popup"
+      },
+      "google": {
+        "clientId": "",
+        "secret": "",
+        "loginStyle": "popup"
+      },
+      "github": {
+        "clientId": "",
+        "secret": "",
+        "loginStyle": "popup"
+      }
+    }
+  }
+}

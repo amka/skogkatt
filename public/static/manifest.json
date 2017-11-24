@@ -1,0 +1,27 @@
+{
+  "name": "Skogkatt",
+  "short_name": "Skogkatt",
+  "lang": "en",
+  "start_url": "/board/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1F7155",
+  "background_color": "#fafafa",
+  "icons": [{
+      "src": "/icons/192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/512x512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icons/appicon.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/icons/appicon.svg",
+      "sizes": "72x72 96x96 128x128 256x256 512x512"
+    }
+  ]
+}
