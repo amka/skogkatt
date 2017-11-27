@@ -21,11 +21,18 @@
             "verifyEmailCheck": "Check {emailAddress} for a verification link!",
             "verifyEmailSuccess": "All set, thanks!",
             "verifyEmailError": "{error}. Please try again.",
-            "verifyEmailTitle": "Wait a second, verifying..."
+            "verifyEmailTitle": "Wait a second, verifying...",
+            "checkEmailForReset": "`Check {email} for a reset link!"
         }
     },
     "profile": {
         "title": "Аккаунт"
+    },
+    "recoverPassword": {
+        "title": "Recover Password"
+    },
+    "resetPassword": {
+        "title": "Reset Password"
     },
     "dashboard": {
         "title": "Сводка"
