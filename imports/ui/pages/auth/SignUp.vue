@@ -3,29 +3,35 @@
     <v-flex xs12 sm4 md6 lg4>
       <h1 class="headline">Sign Up</h1>
 
-      <v-form v-model="valid" ref="form" lazy-validation>
-        <v-text-field label="Email" v-model="email"
-          @keyup.native.enter="submit"
-          :rules="emailRules" required>
-        </v-text-field>
+      <v-layout row wrap>
+        <v-flex xs12 class="mb-2">
+          <v-form v-model="valid" ref="form" lazy-validation>
+            <v-text-field label="Email" v-model="email"
+              @keyup.native.enter="submit"
+              :rules="emailRules" required>
+            </v-text-field>
 
-        <v-text-field label="Password" v-model="password"
-          @keyup.native.enter="submit"
-          type="password" :rules="passwordRules" required>
-        </v-text-field>
+            <v-text-field label="Password" v-model="password"
+              @keyup.native.enter="submit"
+              type="password" :rules="passwordRules" required>
+            </v-text-field>
 
-        <v-checkbox v-model="agreement" :rules="agreementRules"required>
-          <template slot="label">
-            Accept 
-            <router-link to='/terms'>Terms of Service</router-link> and
-            <router-link to='/agreement'>Agreement</router-link>
-          </template>
-        </v-checkbox>
+            <v-checkbox v-model="agreement" :rules="agreementRules"required>
+              <template slot="label">
+                Accept 
+                <router-link to='/terms'>Terms of Service</router-link> and
+                <router-link to='/agreement'>Agreement</router-link>
+              </template>
+            </v-checkbox>
 
-        <v-btn @click="submit" :disabled="!valid" block color="primary">
-          Proceed <v-icon>arrow_right</v-icon>
-        </v-btn>
-      </v-form>
+            <v-btn @click="submit" :disabled="!valid" block color="primary">
+              Proceed <v-icon>arrow_right</v-icon>
+            </v-btn>
+          </v-form>
+        </v-flex>
+        <v-flex xs12>
+          Already have an account? <router-link :to="{name: 'auth.signin'}">Sign In</router-link>
+        </v-flex>
     </v-flex>
   </v-layout>
 </template>

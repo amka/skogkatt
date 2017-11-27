@@ -3,22 +3,32 @@
     <v-flex xs12 sm4 lg4>
       <h1 class="headline">Sign In</h1>
 
-      <v-form v-model="valid" ref="form" lazy-validation>
-        <v-text-field label="Email" v-model="email"
-          @keyup.native.enter="submit"
-          :rules="emailRules" required>
-        </v-text-field>
+      <v-layout row wrap>
+        <v-flex xs12 class="mb-2">
+          <v-form v-model="valid" ref="form" lazy-validation>
+            <v-text-field label="Email" v-model="email"
+              @keyup.native.enter="submit"
+              :rules="emailRules" required>
+            </v-text-field>
 
-        <v-text-field label="Password" v-model="password"
-          @keyup.native.enter="submit"
-          type="password"
-          :rules="passwordRules" required>
-        </v-text-field>
+            <v-text-field label="Password" v-model="password"
+              @keyup.native.enter="submit"
+              type="password"
+              :rules="passwordRules" required>
+            </v-text-field>
 
-        <v-btn @click="submit" :disabled="!valid" block color="primary">
-          Proceed <v-icon>arrow_right</v-icon>
-        </v-btn>
-      </v-form>
+            <v-btn @click="submit" :disabled="!valid" block color="primary">
+              Proceed <v-icon>arrow_right</v-icon>
+            </v-btn>
+          </v-form>
+        </v-flex>
+        <v-flex xs6 class="text-xs-left">
+          <router-link :to="{name: 'auth.signup'}">Sign Up</router-link>
+        </v-flex>
+        <v-flex xs6 class="text-xs-right">
+          <router-link :to="{name: 'auth.recoverPassword'}">Forgot password?</router-link>
+        </v-flex>
+      </v-layout>
     </v-flex>
   </v-layout>
 </template>
