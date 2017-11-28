@@ -32,6 +32,7 @@
         <v-flex xs12>
           Already have an account? <router-link :to="{name: 'auth.signin'}">Sign In</router-link>
         </v-flex>
+      </v-layout>
     </v-flex>
   </v-layout>
 </template>

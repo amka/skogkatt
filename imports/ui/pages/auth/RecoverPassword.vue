@@ -4,15 +4,18 @@
           <h1 class="headline">{{ $t('recoverPassword.title') }}</h1>
 
           <v-form v-model="valid" ref="form" lazy-validation>
+              <p>
+                  Enter your email address below to receive a link to reset your password.
+              </p>
               <v-text-field @keyup.native.enter="submit"
-              :label="$t('auth.email')"
-              v-model="email"
-              :rules="rules.email"
-              required>
-            </v-text-field>
+                :label="$t('auth.email')"
+                v-model="email"
+                :rules="rules.email"
+                required>
+              </v-text-field>
 
-            <v-btn @click="submit" block color="primary">
-              {{ $t('messages.save') }}
+              <v-btn @click="submit" block color="primary">
+                {{ $t('messages.save') }}
               <v-icon>arrow_right</v-icon>
             </v-btn>
           </v-form>
@@ -25,7 +28,7 @@ import { Meteor } from "meteor/meteor";
 import { Accounts } from "meteor/accounts-base";
 export default {
   data: () => ({
-    email: '',
+    email: "",
     valid: false,
     rules: {
       email: [
