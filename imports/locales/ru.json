@@ -16,23 +16,28 @@
         "password": "Пароль",
         "oldPassword": "Текущий пароль",
         "newPassword": "Новый пароль",
+        "repeatPassword": "Повторить пароль",
         "messages": {
             "verifyEmailAlert": "Hey friend! Can you <strong>verify your email address</strong> ({emailAddress}) for us?",
             "verifyEmailCheck": "Check {emailAddress} for a verification link!",
             "verifyEmailSuccess": "All set, thanks!",
             "verifyEmailError": "{error}. Please try again.",
             "verifyEmailTitle": "Wait a second, verifying...",
-            "checkEmailForReset": "`Check {email} for a reset link!"
+            "checkEmailForReset": "`Check {email} for a reset link!",
+            "emailRequired": "EMail required",
+            "passwordRequired": "Password required",
+            "passwordNotMatch": "Hmm, your passwords don't match. Try again?",
+            "passwordUpdated": "Password successfully updated."
         }
     },
     "profile": {
         "title": "Аккаунт"
     },
     "recoverPassword": {
-        "title": "Recover Password"
+        "title": "Восстановить пароль"
     },
     "resetPassword": {
-        "title": "Reset Password"
+        "title": "Сбросить пароль"
     },
     "dashboard": {
         "title": "Сводка"

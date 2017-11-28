@@ -3,7 +3,8 @@
         "save": "Save",
         "cancel": "Cancel",
         "proceed": "Proceed",
-        "connectionIssue": "There seems to be a connection issue"
+        "connectionIssue": "There seems to be a connection issue",
+        "minCharacters": "Use at least {length} characters, please"
     },
     "auth": {
         "signin": "Sign In",
@@ -16,6 +17,7 @@
         "password": "Password",
         "oldPassword": "Current Password",
         "newPassword": "New Password",
+        "repeatPassword": "Repeat password",
         "resendVerificationEmail": "Re-send verification email",
         "messages": {
             "verifyEmailAlert": "Hey friend! Can you <strong>verify your email address</strong> ({emailAddress}) for us?",
@@ -23,7 +25,11 @@
             "verifyEmailSuccess": "All set, thanks!",
             "verifyEmailError": "{error}. Please try again.",
             "verifyEmailTitle": "Wait a second, verifying...",
-            "checkEmailForReset": "`Check {email} for a reset link!"
+            "checkEmailForReset": "`Check {email} for a reset link!",
+            "emailRequired": "EMail required",
+            "passwordRequired": "Password required",
+            "passwordNotMatch": "Hmm, your passwords don't match. Try again?",
+            "passwordUpdated": "Password successfully updated."
         }
     },
     "profile": {
