@@ -41,4 +41,8 @@ export default {
 .toolbar__title img {
   vertical-align: bottom;
 }
+
+.navigation {
+  height: inherit;
+}
 </style>

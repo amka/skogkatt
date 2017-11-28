@@ -1,5 +1,5 @@
 <template>
-  <span>
+  <span class="navigation">
    <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat :to="{name: 'auth.signup'}">{{ $t('auth.signup') }}</v-btn>
       <v-btn flat :to="{name: 'auth.signin'}">{{ $t('auth.signin') }}</v-btn>
@@ -26,4 +26,3 @@ export default {
   data: () => ({})
 };
 </script>
-
