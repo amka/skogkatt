@@ -7,6 +7,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "bcrypt": "^1.0.3",
+    "commonmark": "^0.28.1",
     "handlebars": "^4.0.11",
     "isomorphic-fetch": "^2.2.1",
     "juice": "^4.2.2",
@@ -14,7 +15,7 @@
     "vue": "git://github.com/meteor-vue/vue.git#meteor",
     "vue-i18n": "^7.3.2",
     "vue-meteor-tracker": "^1.0.3",
-    "vue-router": "^2.0.0",
+    "vue-router": "^2.0.1",
     "vuetify": "^0.17.3"
   },
   "devDependencies": {},

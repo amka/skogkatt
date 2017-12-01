@@ -1,5 +1,6 @@
 <template>
   <span class="navigation">
+    <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat :to="{name: 'auth.profile'}">{{ $t('auth.profile') }}</v-btn>
       <v-btn flat :to="{name: 'auth.signout'}">{{ $t('auth.signout') }}</v-btn>

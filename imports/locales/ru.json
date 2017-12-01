@@ -41,5 +41,8 @@
     },
     "dashboard": {
         "title": "Сводка"
+    },
+    "examplePage": {
+        "title": "Пример Страницы"
     }
 }

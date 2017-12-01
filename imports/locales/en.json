@@ -43,5 +43,8 @@
     },
     "dashboard": {
         "title": "Dashboard"
+    },
+    "examplePage": {
+        "title": "Example Page"
     }
 }

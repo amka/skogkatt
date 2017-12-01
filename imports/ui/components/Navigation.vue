@@ -9,9 +9,11 @@
       </router-link>
       {{appTitle}}
     </v-toolbar-title>
+   
+    <v-toolbar-items class="hidden-sm-and-down">
+      <v-btn flat :to="{name: 'example-page'}">{{ $t('examplePage.title') }}</v-btn>
+    </v-toolbar-items>
 
-    <v-spacer></v-spacer>
-       
     <authenticated-navigation v-if="isAuthenticated" :isLogging="isLogging"></authenticated-navigation>
     <public-navigation v-else :isLogging="isLogging"></public-navigation>
   </v-toolbar>
@@ -37,6 +39,7 @@ export default {
 <style>
 .toolbar__title {
   font-weight: 400;
+  margin-right: 10px;
 }
 .toolbar__title img {
   vertical-align: bottom;
@@ -44,5 +47,7 @@ export default {
 
 .navigation {
   height: inherit;
+  display: flex;
+  flex: 1;
 }
 </style>
