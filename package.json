@@ -13,10 +13,10 @@
     "juice": "^4.2.2",
     "meteor-node-stubs": "^0.3.2",
     "vue": "git://github.com/meteor-vue/vue.git#meteor",
-    "vue-i18n": "^7.3.2",
+    "vue-i18n": "^7.4.0",
     "vue-meteor-tracker": "^1.0.3",
-    "vue-router": "^2.0.1",
-    "vuetify": "^0.17.3"
+    "vue-router": "^3.0.1",
+    "vuetify": "^0.17.6"
   },
   "devDependencies": {},
   "meteor": {
