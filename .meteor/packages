@@ -23,6 +23,6 @@ accounts-password@1.5.0
 vuejs:meteor-integration
 akryum:vue-router2
 akryum:vue-component
-stylus@2.513.13
+stylus@=2.513.14
 themeteorchef:bert
 service-configuration@1.0.11
